@@ -13,7 +13,14 @@ class LineItem
     }
 
     public function getPrice() {
-        
         return $this->price;
+    }
+
+    public function getDescription() {
+        return $this->description;
+    }
+
+    public function equals(LineItem $item) {
+        return $this->price == $item->getPrice() && $this->description == $item->getDescription();
     }
 }
