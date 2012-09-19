@@ -1,0 +1,15 @@
+{
+    "name": "DDD Kata",
+    "authors": [
+        {
+            "name": "Michele Orselli",
+            "email": "mo@ideato.it"
+        }
+    ],
+
+    "minimum-stability": "dev",    
+    
+    "autoload": {
+        "psr-0": {"Cart": "src/"}
+    }
+}

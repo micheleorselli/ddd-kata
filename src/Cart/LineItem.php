@@ -1,0 +1,19 @@
+<?php
+
+namespace Cart;
+
+class LineItem
+{
+    private $price;
+    private $description;
+
+    public function __construct($description, $price) {
+        $this->price = $price;
+        $this->description = $description;
+    }
+
+    public function getPrice() {
+        
+        return $this->price;
+    }
+}
